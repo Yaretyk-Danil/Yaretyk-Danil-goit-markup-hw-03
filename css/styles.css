@@ -34,6 +34,9 @@
 
 .header {
   width: 1600px;
+  height: 80px;
+  border-bottom: 1px;
+  border-color: #ececec;
 }
 
 /* Main nav */
