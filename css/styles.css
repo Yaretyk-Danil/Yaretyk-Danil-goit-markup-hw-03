@@ -40,13 +40,14 @@
 /* Main nav */
 
 .main-nav {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
   align-items: center;
+
+  width: 1200px;
 }
 
 .logo {
@@ -103,7 +104,7 @@
 .contacts-list {
   list-style: none;
   display: flex;
-  margin-left: auto;
+  margin-left: 270px;
 }
 
 .e-mail {
@@ -203,7 +204,7 @@
 }
 
 .feature-li {
-  flex-basis: calc((100% - 30px * 4) / 4);
+  flex-basis: calc((100% - 30px * 3) / 4);
   color: var(--title-text-color);
 }
 
@@ -249,7 +250,7 @@
 }
 
 .our-work-li {
-  flex-basis: calc((100% - 30px * 3) / 3);
+  flex-basis: calc((100% - 30px * 2) / 3);
 }
 
 .our-work-list .our-work-li:not(:last-child) {
@@ -280,7 +281,7 @@
 }
 
 .team-li {
-  flex-basis: calc((100% - 30px * 4) / 4);
+  flex-basis: calc((100% - 30px * 3) / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -311,14 +312,22 @@
   margin-left: auto;
   margin-right: auto;
   background-color: #2f303a;
+  height: 252px;
+}
+
+.footer-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
 }
 
 .footer-container-logo {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  margin-left: 215px;
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 
 .footer-logo {
@@ -340,6 +349,7 @@
 .contacts-list-footer {
   list-style: none;
   padding-inline-start: 0px;
+  margin-top: 20px;
 }
 
 .footer-address {
@@ -417,7 +427,7 @@
 }
 
 .portfolio-projects-li {
-  flex-basis: calc((100% - 30px * 3) / 3);
+  width: 370px;
   height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
